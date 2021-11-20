@@ -1,3 +1,9 @@
+.idea
+.PVS-Studio
+cmake-build-debug
+*.iml
+
+# GPU garbage
 *.i
 *.ii
 *.gpu
