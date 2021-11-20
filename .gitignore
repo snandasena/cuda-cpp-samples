@@ -1,6 +1,7 @@
 .idea
 .PVS-Studio
 cmake-build-debug
+build
 *.iml
 
 # GPU garbage
@@ -10,3 +11,4 @@ cmake-build-debug
 *.ptx
 *.cubin
 *.fatbin
+
