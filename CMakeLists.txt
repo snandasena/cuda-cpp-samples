@@ -17,3 +17,6 @@ target_link_libraries(mapdemo -lcurand)
 
 add_executable(reduce src/reduce.cu)
 set_target_properties(reduce ${CUDA_LIBS})
+
+add_executable(scan src/scan.cu)
+set_target_properties(scan ${CUDA_LIBS})
